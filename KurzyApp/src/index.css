@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    font-family: Poppins, sans-serif;
+}
+.header_list{
+    display: flex;
+    gap: 2em;
+    align-items: center;
+    list-style-type: none;
+
+}
+.header_list li:hover {
+    font-weight: bold;
+    cursor: pointer;
+ }
+.top_line{
+    border: lightgray solid 1px;
+}
+.kurzy-karta {
+    flex-wrap: wrap;
+    border: 1px solid gray;
+    border-radius: 10px;
+    display: inline-block;
+    height: 255px;
+    padding: 15px;
+    margin: 10px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nove {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.novy-kurz {
+    background-color: lightgray;
+    color: black;
+    padding: 10px;
+    margin: 0;
+    border-radius: 30px;
+}
+
+.misto, .datum {
+    color: gray;
+}
+
+button {
+    background-color: white;
+    color: black;
+    padding: 8px 12px;
+    border-color: #333333;
+    border-width: 1px;
+    border-radius: 5px;
+    border-style: solid;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: gray;
+    color: white;
+    border-color: gray;
+}
+
+.prednasejici {
+    margin-top: 15px;
+    color: black;
+}
